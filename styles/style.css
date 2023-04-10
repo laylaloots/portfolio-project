@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #f9f8f7;
+  --secondary-color: #ff6969;
+}
+
+body {
+  color: var(--primary-color);
+  background-color: #212121;
+  background-image: url(../images/homepage_hero.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-size: 15px;
+}
+
+.hero-button {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 13px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.header-nav:hover {
+  cursor: pointer;
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.hero-button:hover {
+  color: hwb(0 0% 100% / 0);
+  transition: all 100ms ease-in-out;
+}
+
+@media (max-width: 414px) {
+  .hero-button {
+    font-size: 10px;
+  }
+}
