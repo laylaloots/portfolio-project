@@ -1,6 +1,8 @@
 :root {
   --primary-color: #f9f8f7;
   --secondary-color: #ff6969;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -9,14 +11,14 @@ body {
   background-image: url(../images/homepage_hero.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
 }
 
 p {
