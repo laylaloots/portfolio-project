@@ -1,16 +1,12 @@
 :root {
   --primary-color: #f9f8f7;
-  --secondary-color: #ff6969;
+  --secondary-color: #ceabe6;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
 body {
-  color: var(--primary-color);
   background-color: #212121;
-  background-image: url(../images/homepage_hero.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
   font-family: var(--default-font-family);
 }
 
@@ -21,19 +17,35 @@ h4 {
   font-family: var(--heading-font-family);
 }
 
-p {
-  font-size: 15px;
-}
-
 .hero-button {
-  border: 1px solid var(--primary-color);
+  border: 1.3px solid var(--primary-color);
+  border-radius: 0;
   color: var(--primary-color);
-  font-size: 13px;
-  padding: 10px 20px;
+  font-size: 14px;
+  margin: 70px;
+  padding: 5px 20px;
   text-decoration: none;
 }
 
-.header-nav:hover {
+.hero-logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.hero-text {
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
+.landing-hero {
+  background-image: url(../images/homepage_hero.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 70%;
+}
+
+.hero-text:hover {
   cursor: pointer;
   color: var(--secondary-color);
   transition: all 100ms ease-in-out;
@@ -44,8 +56,12 @@ p {
   transition: all 100ms ease-in-out;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 700px) {
   .hero-button {
     font-size: 10px;
+  }
+
+  .hero-text {
+    font-size: 12px;
   }
 }
