@@ -159,11 +159,11 @@ li {
   }
 
   .feature-image {
-    padding-bottom: 50px;
+    padding-bottom: 15px;
   }
 
   .footer-logo {
-    width: 30%;
+    width: 40%;
     display: block;
     margin: 0 auto;
     padding-top: 20px;
@@ -197,7 +197,7 @@ li {
   }
 
   .social-links {
-    letter-spacing: 25px;
+    letter-spacing: 20px;
     margin: 5px 0;
 }
 
