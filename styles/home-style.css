@@ -49,9 +49,11 @@ li {
   color: var(--primary-color);
 }
 
-.footer-source-copy {
+.footer-links {
   font-size: 10px;
   margin-top: 30px;
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 .footer-logo {
@@ -118,6 +120,10 @@ li {
 .text-container {
   justify-content: center;
   padding: 0px 10px;
+}
+
+.footer-links:hover {
+  color: var(--secondary-color);
 }
 
 .navigation-text:hover {
@@ -199,9 +205,10 @@ li {
   .social-links {
     letter-spacing: 20px;
     margin: 5px 0;
-}
+  }
 
-::selection {
-  background: var(--secondary-color);
-  color: var(--primary-color);
+  ::selection {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+  }
 }
