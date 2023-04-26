@@ -93,7 +93,7 @@ li {
 }
 
 .navbar-logo {
-  height: fit-content;
+  height: auto;
   padding: 10px;
   width: 150px;
 }
