@@ -18,6 +18,10 @@ h4 {
   font-family: var(--heading-font-family);
 }
 
+form {
+  margin-right: 100px;
+}
+
 footer.container {
   background-color: #2b3035;
   max-width: 100%;
@@ -159,6 +163,7 @@ li {
   form {
     font-size: 12px;
     padding: 0 10px;
+    margin-right: 0px;
     text-align: left;
   }
 
@@ -171,7 +176,7 @@ li {
   }
 
   .contact-image {
-    width: 50%;
+    width: 70%;
     display: block;
     margin: 0 auto;
   }
