@@ -228,6 +228,12 @@ li {
   }
 }
 
+@media (min-width: 1920px) {
+  .footer-logo {
+    width: 25%;
+  }
+}
+
 ::selection {
   background: var(--secondary-color);
   color: var(--primary-color);
