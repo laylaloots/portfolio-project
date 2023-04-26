@@ -129,6 +129,11 @@ li {
   color: var(--secondary-color);
 }
 
+.form-label {
+  color: var(--secondary-color);
+  font-weight: 400;
+}
+
 .navigation-text:hover {
   color: var(--secondary-color);
   cursor: pointer;
@@ -149,6 +154,12 @@ li {
 @media (max-width: 900px) {
   body {
     text-align: center;
+  }
+
+  form {
+    font-size: 12px;
+    padding: 0 10px;
+    text-align: left;
   }
 
   h3 {
@@ -174,6 +185,10 @@ li {
     display: block;
     margin: 0 auto;
     padding-top: 20px;
+  }
+
+  .form-control {
+    font-size: 12px;
   }
 
   .navbar-logo {
